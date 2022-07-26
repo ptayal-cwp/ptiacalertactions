@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "mfadeleteupdate" {
+resource "aws_s3_bucket" "mfadeleteupd" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "mfadeleteupdate" {
   }
 }
 
-resource "aws_s3_bucket" "mfadelete2update" {
+resource "aws_s3_bucket" "mfadelete2upd" {
   bucket = "mfadelete2"
   acl    = "private"
   versioning {
